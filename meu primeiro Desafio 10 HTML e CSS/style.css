@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-color:rgb(10, 204, 107)
+    
+    
+}
+
+h1
+    { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(20, 134, 20,) ;
+    color: rgb(252, 252, 252);
+    padding-top: 5px;
+}
+
+h2{
+    background-color: rgba(127, 255, 212, 0.205);
+    color: rgb(20, 134, 20);
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(20, 134, 20);
+    color: white;
+    text-align: center;
+    height: 150px;
+}
+header > a{
+    color: white;
+}
+
+main{
+    background-color: white;
+    margin-top: 0px;
+    margin-right: 200px;
+    margin-bottom: 0px;
+    margin-left: 200px;
+    padding-top: 0px;
+    text-indent: 30px;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background: rgb(6, 75, 6);
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.video-youtube {
+    background-color: rgb(6, 75, 6);
+}
+.menu{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+.bugdroid{
+    margin-left: 50px;
+}
+a::hover { text-decoration: underline;
+
+}
