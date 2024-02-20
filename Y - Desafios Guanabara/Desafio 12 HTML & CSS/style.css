@@ -6,8 +6,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
 :root {
-    -- font-destaque: 'passion', sans-serif;
-    -- font-padrao: 'sricha',  sans-serif;
+    --font-destaque: 'passion', sans-serif;
+    --font-padrao: 'sricha',  sans-serif;
 }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+   
+    background-color: black;
+    text-align: center;
+    height: 250px;
+    margin: 0px;
+    padding: 0px; 
+}
+
+header > h1 {
+    font-family: var(--font-destaque);
+    font-size: 5em;
+    font-weight: bold;
+    padding-top: 80px;
+    color: #ffffff;
+
+}
+header > p {
+    font-family: var(--font-destaque);
+    padding-top: 10px;
+    color: #ffffff;
+}
+
+
+
+.primmeira {
+    background-color: #da1313;
+    max-height: 600px;
+}
+.segunda {
+    background-image: url(imagens/background001.jpg)
+
+}
+
+    
 
 
