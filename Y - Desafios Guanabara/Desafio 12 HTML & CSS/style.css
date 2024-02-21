@@ -14,11 +14,15 @@
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    font-family: var(--font-padrao);
+}
 header {
    
     background-color: black;
     text-align: center;
-    height: 250px;
+   min-height: 150px;
     margin: 0px;
     padding: 0px; 
 }
@@ -34,20 +38,53 @@ header > h1 {
 header > p {
     font-family: var(--font-destaque);
     padding-top: 10px;
-    color: #ffffff;
+    color: #ffffff
 }
 
 
 
-.primmeira {
-    background-color: #da1313;
+main > div {
+    font-family: var(--font-padrao);
+    font-size: 4em;
+    padding: 20px;
+    background-color: white;
     max-height: 600px;
 }
 .segunda {
-    background-image: url(imagens/background001.jpg)
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    color: #ffffff;
+    max-height: 100%;
 
 }
 
+.terceira {
     
+    height: 800px;
+}
+
+.quarta {
+    background-color: white;
+    margin-top: 450px;
+}
+
+.quinta {
+    background-image: url(imagens/background002.jpg);
+    background-color: blue;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+    
+footer {
+    font-family: var(--font-destaque);
+    background-color: black;
+    color: #ffffff;
+    margin-top: 500px;
+    text-align: center;
+    padding: 4px;
+}
 
 
