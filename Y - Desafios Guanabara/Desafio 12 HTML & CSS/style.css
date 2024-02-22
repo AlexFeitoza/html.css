@@ -52,6 +52,8 @@ a:hover {
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
 
 section.normal {
@@ -59,10 +61,15 @@ section.normal {
 }
 
 section.imagem {
-    background-color: blueviolet;
+    background-color: rgb(190, 180, 180);
     color: white;
 }
 
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 400px;
+
+}
 footer {
     background-color: black;
     color: white;
