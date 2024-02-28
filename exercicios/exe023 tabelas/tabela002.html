@@ -18,11 +18,18 @@
             }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(133, 128, 128);
             color: white;
         }
         .num{
             text-align: right;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(207, 191, 191);
+
         }
     </style>
 </head>
@@ -31,9 +38,10 @@
         Tabelas Grandes
     </h1>
     <table>
+        <caption>Populacao das Unidades Federativas</caption>
         <thead>
-            <th>Estados</th>
-            <th>Populacao</th>
+            <th scope="col">Estados</th>
+            <th scope="col" style="width: 100px;">Populacao</th>
         </thead>
         <tbody>
             <tr>
@@ -148,7 +156,7 @@
             
         </tbody>
         <tfoot>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num">213.062,512</td>
         </tfoot>
     </table>
