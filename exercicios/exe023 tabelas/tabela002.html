@@ -11,11 +11,22 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         th, td {
             border: 2px solid black;
             padding: 8px;
             }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: rgb(133, 128, 128);
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgrey;
+        }
 
         thead, tfoot {
             background-color: rgb(133, 128, 128);
@@ -160,5 +171,6 @@
                 <td class="num">213.062,512</td>
         </tfoot>
     </table>
+    
 </body>
 </html>
