@@ -6,40 +6,80 @@
     <title>Tabelas</title>
 
     <style>
+        
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
         table{
             border-collapse: collapse;
-            width: 400px;
+            width: 600px;
         }
-        th{
+        
+        caption {
+            font-size: 1.3em;
             font-weight: bold;
-            text-align: center;
+            padding: 8px;
         }
 
-        td {
+        th,td {
             border: 1px solid black;
             padding: 10px;
+            text-align: center;
         }
 
     </style>
 </head>
 <body>
+    <caption>
+        Filmes Assistidos
+    </caption>
     <table>
-        <th>
-            <td>Grupo</td>
-            <td>Nomes</td>
-            <td colspan="3">Filmes</td>
-            <td></td>
-            <td></td>
-        </th>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
+        <thead>
+            <th>Grupo</th>
+            <th>Nomes</th>
+            <th colspan="3">Filmes</th>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Mulheres</th>
+                <td>Nycole Vitoria</td>
+                <td>Harry Potter</td>
+                <td>Wandinha</td>
+                <td>Naruto</td>
+         </tr>
+         <tr>
+            <td>Maggie Lavinia</td>
+            <td>Marsha e o Urso</td>
+            <td>Peppa Pig</td>
+            <td>Barbie</td>
+         </tr>
+         <tr>
+            <td>Danubia Queiroz</td>
+            <td>As Branquelas</td>
+            <td>American Pie</td>
+            <td>50 Tons de Cinza</td>
+         </tr>
+         <tr>
+            <th rowspan="3">Homens</th>
+            <td>Alex Silva</td>
+            <td>Troia</td>
+            <td>A Mumia</td>
+            <td>Resident Evil</td>
+         </tr>
+         <tr>
+            <td>Apolo Victor</td>
+            <td>Mario Bros</td>
+            <td>Toy Story</td>
+            <td>Os Vingadores</td>
+         </tr>
+         <tr>
+            <td>Ailton Silva</td>
+            <td>He-Man</td>
+            <td>Naufrago</td>
+            <td>Rambo</td>
+         </tr>
+        </tbody>
     </table>
     
 </body>
